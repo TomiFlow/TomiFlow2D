@@ -106,3 +106,10 @@ java.lang.UnsupportedOperationException: Unsupported format for this image
 	at org.newdawn.slick.tests.AlphaMapTest.main(AlphaMapTest.java:79)
 	
 ---------------------------------------------------------------------------------------------------------------------
+
+
+ERROR 4
+
+Launch configuration AlphaMapTest references closed project TomiFlow
+
+---------------------------------------------------------------------------------------------------------------------
