@@ -1,6 +1,4 @@
-
 ---------------------------------------------------------------------------------------------------------------------
-
 
 MY ERROR
 
@@ -28,6 +26,44 @@ Exception in thread "main" java.lang.RuntimeException: Resource not found: testd
 	at org.newdawn.slick.Image.<init>(Image.java:154)
 	at org.newdawn.slick.Image.<init>(Image.java:132)
 	at org.newdawn.slick.tests.AlphaMapTest.init(AlphaMapTest.java:33)
+	at org.newdawn.slick.AppGameContainer.setup(AppGameContainer.java:393)
+	at org.newdawn.slick.AppGameContainer.start(AppGameContainer.java:317)
+	at org.newdawn.slick.tests.AlphaMapTest.main(AlphaMapTest.java:79)
+
+---------------------------------------------------------------------------------------------------------------------
+
+ERROR 2
+
+
+Fri Nov 24 02:26:13 CET 2017 INFO:Slick Build #237
+Fri Nov 24 02:26:13 CET 2017 INFO:LWJGL Version: 2.9.3
+Fri Nov 24 02:26:13 CET 2017 INFO:OriginalDisplayMode: 1920 x 1080 x 32 @240Hz
+Fri Nov 24 02:26:13 CET 2017 INFO:TargetDisplayMode: 800 x 600 x 0 @0Hz
+Fri Nov 24 02:26:14 CET 2017 INFO:Starting display 800x600
+Fri Nov 24 02:26:14 CET 2017 INFO:Use Java PNG Loader = true
+WARNING: Found unknown Windows version: Windows 10
+Attempting to use default windows plug-in.
+Loading: net.java.games.input.DirectAndRawInputEnvironmentPlugin
+Failed to initialize device Corsair Gaming K63 Keyboard because of: java.io.IOException: Failed to acquire device (8007001e)
+Fri Nov 24 02:26:14 CET 2017 INFO:Found 4 controllers
+Fri Nov 24 02:26:14 CET 2017 INFO:0 : Corsair Gaming K63 Keyboard
+Fri Nov 24 02:26:14 CET 2017 INFO:1 : USB Audio Device
+Fri Nov 24 02:26:14 CET 2017 INFO:2 : Razer DeathAdder 2013
+Fri Nov 24 02:26:14 CET 2017 INFO:3 : Razer DeathAdder 2013
+Fri Nov 24 02:26:14 CET 2017 WARN:class org.newdawn.slick.opengl.PNGImageData failed to read the data
+java.lang.UnsupportedOperationException: Unsupported format for this image
+	at org.newdawn.slick.opengl.PNGDecoder.decode(PNGDecoder.java:272)
+	at org.newdawn.slick.opengl.PNGImageData.loadImage(PNGImageData.java:97)
+	at org.newdawn.slick.opengl.CompositeImageData.loadImage(CompositeImageData.java:62)
+	at org.newdawn.slick.opengl.CompositeImageData.loadImage(CompositeImageData.java:43)
+	at org.newdawn.slick.opengl.InternalTextureLoader.getTexture(InternalTextureLoader.java:292)
+	at org.newdawn.slick.opengl.InternalTextureLoader.getTexture(InternalTextureLoader.java:254)
+	at org.newdawn.slick.opengl.InternalTextureLoader.getTexture(InternalTextureLoader.java:187)
+	at org.newdawn.slick.Image.<init>(Image.java:192)
+	at org.newdawn.slick.Image.<init>(Image.java:166)
+	at org.newdawn.slick.Image.<init>(Image.java:154)
+	at org.newdawn.slick.Image.<init>(Image.java:132)
+	at org.newdawn.slick.tests.AlphaMapTest.init(AlphaMapTest.java:34)
 	at org.newdawn.slick.AppGameContainer.setup(AppGameContainer.java:393)
 	at org.newdawn.slick.AppGameContainer.start(AppGameContainer.java:317)
 	at org.newdawn.slick.tests.AlphaMapTest.main(AlphaMapTest.java:79)
