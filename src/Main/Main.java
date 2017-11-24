@@ -40,9 +40,9 @@ public class Main extends BasicGame {
     	}
     	else if (input.isKeyPressed(Input.KEY_R)) { //Si se pierde el rectangulo con la r vuelve a su hogar
     		rectangulo.setX(0);
-    		rectangulo.setY(0);
-    		
-    	}
+    		rectangulo.setY(0);}
+  
+   
     }
   
     @Override
