@@ -29,7 +29,7 @@ public class Main extends BasicGame {
     		rectangulo.setY(rectangulo.getY()+1);
     	}
     	else if  (input.isKeyDown(Input.KEY_UP)){
-         rectangulo.setY(rectangulo.getY()-1); //Para arriba negativo y para arriba positivo
+         rectangulo.setY(rectangulo.getY()-1); 					//Para arriba negativo y para abajo positivo
     	}
     	else if (input.isKeyDown(Input.KEY_RIGHT)) {
     		rectangulo.setX(rectangulo.getX()+1);
@@ -38,7 +38,7 @@ public class Main extends BasicGame {
     	else if (input.isKeyDown(Input.KEY_LEFT)) {
     		rectangulo.setX(rectangulo.getX()-1);
     	}
-    	else if (input.isKeyPressed(Input.KEY_R)) { //Si se pierde el rectangulo con la r vuelve a su hogar
+    	else if (input.isKeyPressed(Input.KEY_R)) { 			//Si se pierde el rectangulo con la r vuelve a su hogar
     		rectangulo.setX(0);
     		rectangulo.setY(0);}
   
